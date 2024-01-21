@@ -27,6 +27,7 @@ let boxes = document.querySelector(".container").children
     Array.from(boxes).forEach(e => {
         e.style.backgroundColor = getRandomColor()
         e.style.color = getRandomColor()
+        console.log(e)
     })
 
 
